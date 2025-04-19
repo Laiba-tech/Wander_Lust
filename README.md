@@ -1,5 +1,5 @@
 # WanderLust
-WanderLust is the project I made while learning web-d from apna college.
+WanderLust is the project based on Airbnb concept.
 
 Wanderlust Web Project Installation Guide
 
