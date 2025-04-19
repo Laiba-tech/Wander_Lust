@@ -1,0 +1,15 @@
+<h2>Your Bookings</h2>
+<% if (bookings.length === 0) { %>
+  <p>No bookings yet!</p>
+<% } %>
+
+<ul>
+  <% bookings.forEach(booking => { %>
+    <li>
+      <strong><%= booking.listing.title %></strong><br>
+      Check-in: <%= booking.checkIn.toDateString() %> | 
+      Check-out: <%= booking.checkOut.toDateString() %> |
+      Guests: <%= booking.guests %>
+    </li>
+  <% }) %>
+</ul>
